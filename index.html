@@ -418,39 +418,44 @@
             </p>
           </div>
 
-          <form id="contactForm" class="clean-form">
+          <form id="contactForm" action="https://formsubmit.co/sharukesank01@gmail.com" method="POST" class="clean-form">
+            <!-- FormSubmit Automated Email Routing -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_subject" value="New Project Inquiry - SHRKZ.dev">
+
             <div class="form-grid-2">
               <div class="form-field">
                 <label for="userName">Your Name *</label>
-                <input type="text" id="userName" required placeholder="e.g. Sarah Jenkins">
+                <input type="text" id="userName" name="name" required placeholder="e.g. Sarah Jenkins">
               </div>
               <div class="form-field">
                 <label for="userEmail">Email Address *</label>
-                <input type="email" id="userEmail" required placeholder="sarah@business.com">
+                <input type="email" id="userEmail" name="email" required placeholder="sarah@business.com">
               </div>
             </div>
 
             <div class="form-grid-2">
               <div class="form-field">
                 <label for="userBusiness">Business / Current Website</label>
-                <input type="text" id="userBusiness" placeholder="Your business name or URL">
+                <input type="text" id="userBusiness" name="business" placeholder="Your business name or URL">
               </div>
               <div class="form-field">
                 <label for="userIntegration">Primary Integration Needed</label>
-                <select id="userIntegration">
-                  <option value="multiple">Multiple Business Integrations</option>
-                  <option value="calendar">Booking Calendar & Scheduling</option>
-                  <option value="quote">Instant Quote Calculator</option>
-                  <option value="reservation">Table or Venue Reservations</option>
-                  <option value="pos">POS, Billing & Payments</option>
-                  <option value="website-only">Custom Website Development Only</option>
+                <select id="userIntegration" name="integration">
+                  <option value="Multiple Business Integrations">Multiple Business Integrations</option>
+                  <option value="Booking Calendar & Scheduling">Booking Calendar & Scheduling</option>
+                  <option value="Instant Quote Calculator">Instant Quote Calculator</option>
+                  <option value="Table or Venue Reservations">Table or Venue Reservations</option>
+                  <option value="POS, Billing & Payments">POS, Billing & Payments</option>
+                  <option value="Custom Website Development Only">Custom Website Development Only</option>
                 </select>
               </div>
             </div>
 
             <div class="form-field">
               <label for="userMessage">Project Details *</label>
-              <textarea id="userMessage" rows="4" required placeholder="Tell me what you'd like your website to accomplish, your timeline, or any specific tools you use..."></textarea>
+              <textarea id="userMessage" name="message" rows="4" required placeholder="Tell me what you'd like your website to accomplish, your timeline, or any specific tools you use..."></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary btn-block" id="contactSubmitBtn">
@@ -459,12 +464,12 @@
             </button>
 
             <div id="contactSuccess" class="form-success-banner hidden">
-              ✓ Message received! I will review your requirements and reply within 24 hours.
+              ✓ Message received! Your inquiry has been sent to sharukesank01@gmail.com. I will review your requirements and reply within 24 hours.
             </div>
           </form>
 
           <div class="contact-footer-note">
-            <span>Direct Email: <a href="mailto:alex@carterwebstudio.com">sharukesank01@gmail.com</a></span>
+            <span>Direct Email: <a href="mailto:sharukesank01@gmail.com">sharukesank01@gmail.com</a></span>
             <span>•</span>
             <span>Fast Turnaround Available</span>
           </div>
