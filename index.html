@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharukesan Kannan | Web Development & Business Integrations</title>
+  <meta name="description" content="Freelance web developer crafting high-performance, modern websites with built-in business integrations: booking calendars, instant quote generators, reservations, and POS billing.">
+  
+  <!-- Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Backgrounds from Palette -->
+  <div class="glow-sphere glow-sphere-plum" aria-hidden="true"></div>
+  <div class="glow-sphere glow-sphere-coral" aria-hidden="true"></div>
+  <div class="glow-sphere glow-sphere-slate" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-mark">S</span>
+        <span class="logo-text">SHRKZ<span class="accent-dot">.dev</span></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#integrations" class="nav-link">Integrations</a>
+        <a href="#services" class="nav-link">What I Build</a>
+        <a href="#workflow" class="nav-link">How It Works</a>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Start a Project</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+        <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Clean, High-Impact Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-badge">
+          <span>Web Development  ✕  Business Tools</span>
+        </div>
+
+        <h1 class="hero-title">
+          Websites that don’t just look good. <br>
+          <span class="text-gradient">They run your business.</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          We build clean, modern websites integrated with industry-trusted platforms: custom Acuity booking schedules, instant quote generators, online reservations, and Square POS billing systems.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#integrations" class="btn btn-primary">
+            <span>Explore Integrations</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Get in Touch</span>
+          </a>
+        </div>
+
+        <!-- Integration Feature Pills -->
+        <div class="integration-pills">
+          <span class="pill-item">📅 Acuity & Calendars</span>
+          <span class="pill-item">⚡ Instant Quote Calculators</span>
+          <span class="pill-item">🛎️ Table & Venue Reservations</span>
+          <span class="pill-item">💳 Square POS & Stripe Billing</span>
+          <span class="pill-item">📩 Automated CRM Alerts</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Business Integrations Showcase (Clean Show & Tell) -->
+    <section class="integrations-section" id="integrations">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="section-tag">REPUTABLE PLATFORM INTEGRATIONS</span>
+          <h2 class="section-title">Built-In Business Integrations</h2>
+          <p class="section-subtitle">
+            Rather than relying on unvetted custom code, we connect your business to bank-grade, industry-leading services like Acuity Scheduling, Square POS, and Stripe. Click any button below to test sample live demo pages hosted on these platforms.
+          </p>
+          <div class="integration-disclaimer">
+            <span class="disclaimer-badge">Live Platform Demos</span>
+            <span>Clicking the demo buttons below will open sample live configuration pages on reputed services (such as Acuity Scheduling & Square POS) so you can experience the real client booking and payment flow.</span>
+          </div>
+        </div>
+
+        <div class="showcase-grid">
+          <!-- 1. Instant Quote Generator -->
+          <article class="showcase-card glass-card">
+            <div class="card-visual">
+              <div class="mockup-frame">
+                <div class="mockup-header">
+                  <span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span>
+                  <span class="mockup-title">Instant Estimate Calculator</span>
+                </div>
+                <div class="mockup-body">
+                  <div class="mock-row">
+                    <span class="mock-label">Selected Scope:</span>
+                    <span class="mock-badge">Commercial Package</span>
+                  </div>
+                  <div class="mock-line-items">
+                    <div class="mock-item"><span>Base Implementation</span><strong>$950</strong></div>
+                    <div class="mock-item"><span>Multi-Location Setup</span><strong>$300</strong></div>
+                    <div class="mock-item"><span>Priority Delivery</span><strong>$150</strong></div>
+                  </div>
+                  <div class="mock-total">
+                    <span>Estimated Total:</span>
+                    <strong class="text-gradient">$1,400 CAD</strong>
+                  </div>
+                  <a href="https://tally.so" target="_blank" rel="noopener" class="showcase-redirect-btn">
+                    <span>Open Live Quote Calculator Page</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div class="card-tag">Lead Qualification</div>
+              <h3>Instant Quote & Pricing Calculators</h3>
+              <p>
+                Stop losing prospects to slow email replies and tire-kickers. Custom self-service calculators let your visitors configure their exact needs, calculate accurate pricing in real time, and submit qualified inquiries.
+              </p>
+              <ul class="feature-bullets">
+                <li>Dynamic formulas based on materials, hours, or packages</li>
+                <li>Automatic PDF estimates emailed instantly to the client</li>
+                <li>Instant SMS and email alert sent to you the moment a quote is generated</li>
+                <li>Seamless sync with HubSpot, ActiveCampaign, or Google Sheets</li>
+              </ul>
+              <div class="integration-badges">
+                <span>Tools & APIs:</span>
+                <span class="int-badge">Custom JavaScript</span>
+                <span class="int-badge">Tally / Typeform</span>
+                <span class="int-badge">Zapier</span>
+                <span class="int-badge">HubSpot</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Booking Calendars (Acuity Scheduling) -->
+          <article class="showcase-card glass-card reverse">
+            <div class="card-visual">
+              <div class="mockup-frame">
+                <div class="mockup-header">
+                  <span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span>
+                  <span class="mockup-title">Acuity Scheduling Portal</span>
+                </div>
+                <div class="mockup-body">
+                  <div class="mock-calendar-view">
+                    <div class="mock-cal-header">
+                      <strong>November 2026</strong>
+                      <span class="mock-cal-status">🟢 Live Slots Available</span>
+                    </div>
+                    <div class="mock-slots">
+                      <span class="m-slot active">9:30 AM EST</span>
+                      <span class="m-slot">11:00 AM EST</span>
+                      <span class="m-slot">2:00 PM EST</span>
+                      <span class="m-slot">4:30 PM EST</span>
+                    </div>
+                  </div>
+                  <div class="mock-sync-badge">
+                    <span>✓ Synced with Google Calendar & Outlook</span>
+                  </div>
+                  <a href="https://acuityscheduling.com" target="_blank" rel="noopener" class="showcase-redirect-btn">
+                    <span>View Live Acuity Scheduling Page</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div class="card-tag">Automated Scheduling</div>
+              <h3>Live Booking Calendars (Acuity Scheduling)</h3>
+              <p>
+                Eliminate back-and-forth emails forever. We deploy customized booking pages directly on **Acuity Scheduling** (or embed them seamlessly on your website), letting clients book consultations or service appointments with real-time calendar synchronization.
+              </p>
+              <ul class="feature-bullets">
+                <li>Direct link or embedded portal on industry-standard Acuity Scheduling</li>
+                <li>Real-time 2-way sync with Google Calendar, iCloud, and Outlook 365</li>
+                <li>Automated client SMS and email reminder notifications to eliminate no-shows</li>
+                <li>Custom intake forms & deposit collection before confirming appointments</li>
+              </ul>
+              <div class="integration-badges">
+                <span>Tools & APIs:</span>
+                <span class="int-badge">Acuity Scheduling</span>
+                <span class="int-badge">Cal.com</span>
+                <span class="int-badge">Google Calendar</span>
+                <span class="int-badge">Outlook / 365</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Reservations -->
+          <article class="showcase-card glass-card">
+            <div class="card-visual">
+              <div class="mockup-frame">
+                <div class="mockup-header">
+                  <span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span>
+                  <span class="mockup-title">Table & Venue Reservations</span>
+                </div>
+                <div class="mockup-body">
+                  <div class="mock-res-details">
+                    <div class="res-meta-line">
+                      <span>Party Size:</span>
+                      <strong>4 Guests (Standard Booth)</strong>
+                    </div>
+                    <div class="res-meta-line">
+                      <span>Time:</span>
+                      <strong>Friday @ 7:30 PM (Dinner)</strong>
+                    </div>
+                    <div class="res-meta-line">
+                      <span>Seating Zone:</span>
+                      <strong class="text-coral">Heated Patio</strong>
+                    </div>
+                  </div>
+                  <div class="mock-res-status">
+                    <span class="res-dot"></span> Direct Reservation Link Active
+                  </div>
+                  <a href="https://www.opentable.com" target="_blank" rel="noopener" class="showcase-redirect-btn">
+                    <span>View Live Reservation Demo Page</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div class="card-tag">Hospitality & Venue Bookings</div>
+              <h3>Table, Rental & Service Reservations</h3>
+              <p>
+                Designed for restaurants, event spaces, spa clinics, and rental businesses. Connect your visitors directly to custom reservation pages or dedicated portals on platforms like OpenTable, Resy, or custom database booking flows.
+              </p>
+              <ul class="feature-bullets">
+                <li>Direct customer redirection to verified reservation portals</li>
+                <li>Real-time party size, seating zone, and dietary intake management</li>
+                <li>Automatic SMS text confirmation and reminder notifications</li>
+                <li>Integrated deposit collection to prevent weekend cancellations</li>
+              </ul>
+              <div class="integration-badges">
+                <span>Tools & APIs:</span>
+                <span class="int-badge">OpenTable</span>
+                <span class="int-badge">Resy</span>
+                <span class="int-badge">Twilio SMS</span>
+                <span class="int-badge">Custom Database</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. POS & Invoicing (Square POS & Stripe) -->
+          <article class="showcase-card glass-card reverse">
+            <div class="card-visual">
+              <div class="mockup-frame">
+                <div class="mockup-header">
+                  <span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span>
+                  <span class="mockup-title">Square POS & Stripe Gateway</span>
+                </div>
+                <div class="mockup-body">
+                  <div class="mock-inv-card">
+                    <div class="m-inv-top">
+                      <span>Invoice #INV-2026-084</span>
+                      <span class="m-status-paid">Square POS Verified</span>
+                    </div>
+                    <div class="m-inv-row">
+                      <span>Project Kickoff Deposit</span>
+                      <strong>$750.00 CAD</strong>
+                    </div>
+                    <div class="m-inv-methods">
+                      <span>💳 Visa / Mastercard</span>
+                      <span>🍏 Apple Pay</span>
+                      <span>🏛️ Interac / EFT</span>
+                    </div>
+                  </div>
+                  <a href="https://squareup.com" target="_blank" rel="noopener" class="showcase-redirect-btn">
+                    <span>View Live Square POS Checkout Page</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <div class="card-tag">Payments & POS Gateways</div>
+              <h3>Square POS & Stripe Billing Integrations</h3>
+              <p>
+                Get paid on time with zero friction. We link your site to dedicated custom checkout pages hosted on industry leaders like **Square POS** and **Stripe**, allowing clients to pay securely with credit cards, Apple Pay, Google Pay, or direct bank deposits.
+              </p>
+              <ul class="feature-bullets">
+                <li>Direct redirection to secure, PCI-compliant Square POS and Stripe checkout pages</li>
+                <li>Automated PDF tax invoices and payment receipts dispatched on completion</li>
+                <li>Support for recurring retainers, subscription billing, and milestone payouts</li>
+                <li>Direct synchronization with QuickBooks and Xero accounting software</li>
+              </ul>
+              <div class="integration-badges">
+                <span>Tools & APIs:</span>
+                <span class="int-badge">Square POS</span>
+                <span class="int-badge">Stripe</span>
+                <span class="int-badge">Apple Pay</span>
+                <span class="int-badge">QuickBooks</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="showcase-footnote text-center">
+          <p>
+            <em>* How It Works: The live buttons above redirect to sample custom pages on industry-leading platforms (e.g. Acuity Scheduling and Square POS). For your project, these services are configured specifically for your brand and either embedded seamlessly on your custom domain or linked via branded redirects.</em>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="section-tag">SERVICES</span>
+          <h2 class="section-title">What I Build For Your Business</h2>
+          <p class="section-subtitle">
+            Reliable modern web development paired with real backend tools to streamline your daily operations.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card glass-card">
+            <div class="service-icon">💻</div>
+            <h3>Custom Responsive Websites</h3>
+            <p>Clean, mobile-first websites crafted in modern HTML5, Tailwind, Next.js, or Webflow. Fast, elegant, and designed to convert visitors into clients.</p>
+          </div>
+
+          <div class="service-card glass-card">
+            <div class="service-icon">📅</div>
+            <h3>Scheduling & Calendar Systems</h3>
+            <p>Automate client consultations with seamless 2-way sync across Google Calendar, Outlook, and Cal.com so your schedule manages itself.</p>
+          </div>
+
+          <div class="service-card glass-card">
+            <div class="service-icon">⚡</div>
+            <h3>Instant Quote Calculators</h3>
+            <p>Custom cost estimators that let prospective clients select options, get instant dollar figures, and submit qualified lead details.</p>
+          </div>
+
+          <div class="service-card glass-card">
+            <div class="service-icon">💳</div>
+            <h3>POS, Payments & Invoicing</h3>
+            <p>Secure online checkouts with Stripe and Square POS. Automated receipts, recurring subscription billing, and local currency support.</p>
+          </div>
+
+          <div class="service-card glass-card">
+            <div class="service-icon">🛎️</div>
+            <h3>Reservations & Order Intake</h3>
+            <p>Direct reservation systems for dining, venues, and appointments with automated text/email confirmations and table capacity limits.</p>
+          </div>
+
+          <div class="service-card glass-card">
+            <div class="service-icon">⚙️</div>
+            <h3>CRM & Workflow Automation</h3>
+            <p>Connect website forms to your email, WhatsApp, or CRM (HubSpot, Notion, Airtable) to eliminate manual data entry.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works (Simple 3 Steps) -->
+    <section class="workflow-section" id="workflow">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="section-tag">THE PROCESS</span>
+          <h2 class="section-title">How We Build Together</h2>
+          <p class="section-subtitle">A straightforward, transparent workflow from concept to launch.</p>
+        </div>
+
+        <div class="workflow-cards">
+          <div class="workflow-card glass-card">
+            <div class="step-num text-gradient">01</div>
+            <h3>Integration Mapping</h3>
+            <p>We review your business operations, determine which tools you use (calendars, POS, CRM), and map out the exact integrations needed.</p>
+          </div>
+
+          <div class="workflow-card glass-card">
+            <div class="step-num text-gradient">02</div>
+            <h3>Design, Code & Wire-Up</h3>
+            <p>I build the custom responsive site, connect all APIs, configure booking flows and payment systems, and share a live staging URL for review.</p>
+          </div>
+
+          <div class="workflow-card glass-card">
+            <div class="step-num text-gradient">03</div>
+            <h3>Testing, Launch & Handover</h3>
+            <p>We test live bookings and transactions, deploy to your custom domain, and provide an easy walkthrough so you have 100% control.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-box glass-card">
+          <div class="contact-head text-center">
+            <span class="section-tag">GET STARTED</span>
+            <h2 class="section-title">Let's Discuss Your Project</h2>
+            <p class="section-subtitle">
+              Ready for a modern website with built-in calendars, quote calculators, or payment tools? Send a quick message below.
+            </p>
+          </div>
+
+          <form id="contactForm" class="clean-form">
+            <div class="form-grid-2">
+              <div class="form-field">
+                <label for="userName">Your Name *</label>
+                <input type="text" id="userName" required placeholder="e.g. Sarah Jenkins">
+              </div>
+              <div class="form-field">
+                <label for="userEmail">Email Address *</label>
+                <input type="email" id="userEmail" required placeholder="sarah@business.com">
+              </div>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-field">
+                <label for="userBusiness">Business / Current Website</label>
+                <input type="text" id="userBusiness" placeholder="Your business name or URL">
+              </div>
+              <div class="form-field">
+                <label for="userIntegration">Primary Integration Needed</label>
+                <select id="userIntegration">
+                  <option value="multiple">Multiple Business Integrations</option>
+                  <option value="calendar">Booking Calendar & Scheduling</option>
+                  <option value="quote">Instant Quote Calculator</option>
+                  <option value="reservation">Table or Venue Reservations</option>
+                  <option value="pos">POS, Billing & Payments</option>
+                  <option value="website-only">Custom Website Development Only</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="userMessage">Project Details *</label>
+              <textarea id="userMessage" rows="4" required placeholder="Tell me what you'd like your website to accomplish, your timeline, or any specific tools you use..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="contactSubmitBtn">
+              <span>Send Project Inquiry</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+
+            <div id="contactSuccess" class="form-success-banner hidden">
+              ✓ Message received! I will review your requirements and reply within 24 hours.
+            </div>
+          </form>
+
+          <div class="contact-footer-note">
+            <span>Direct Email: <a href="mailto:alex@carterwebstudio.com">sharukesank01@gmail.com</a></span>
+            <span>•</span>
+            <span>Fast Turnaround Available</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Clean Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <strong>SHRKZ<span class="accent-dot">.dev</span></strong>
+        <p>Modern web development & business tool integrations.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#integrations">Integrations</a>
+        <a href="#services">Services</a>
+        <a href="#workflow">Process</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-copy">
+        © 2026 SHRKZ . All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
